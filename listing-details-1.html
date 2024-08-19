@@ -21,6 +21,31 @@
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/custom-animation.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   
+   <style> .blurred-content {
+    filter: blur(5px);
+    position: relative;
+}
+.blurred-content::after {
+    content: "Subscribe to view this content";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+.blurred-content.blurred::after {
+    display: block;
+}
+.subscribe-button {
+    display: block;
+    margin-top: 20px;
+}
+   </style>
 </head>
 
 <body>
@@ -289,86 +314,43 @@
 
       <!-- details area start -->
       <div class="tp-list-details-area pb-70">
-         <div class="container">
+        <div class="container">
             <div class="row">
-               <div class="col-xl-12">
-                  <div class="tp-list-details-top-border pb-50 mb-55 d-flex justify-content-between align-items-center">
-                     <div class="tp-list-details-top-left-box  d-flex align-items-center">
-                        <div class="tp-list-details-top-left">
-                           <div class="tp-list-details-top-id">
-                              <i class="fal fa-book"></i>
-                              <span><i>ID:</i> 7899902</span>
-                           </div>
-                           <h4 class="tp-list-details-top-title">Apple MacBook Air (2023) Apple M2 Chip</h4>
-                           <div class="tp-list-details-top-meta">
-                              <span><i class="fal fa-map-marker-alt"></i> New York, United States</span>
-                              <span class="date"><i class="fal fa-calendar-alt"></i>Nov 01, 2023, 10:00am</span>
-                              <span><i class="fal fa-eye"></i>Views: <b>4000</b></span>
-                           </div>
+                <div class="col-xl-12">
+                    <div class="tp-list-details-top-border pb-50 mb-55 d-flex justify-content-between align-items-center">
+                        <div class="tp-list-details-top-left-box d-flex align-items-center">
+                            <div class="tp-list-details-top-left">
+                                <h4 class="tp-list-details-top-title">{{title}}</h4>
+                                <div class="tp-list-details-top-meta">
+                                    <span><i class="fal fa-map-marker-alt"></i> {{location}}</span>
+                                    <span class="date"><i class="fal fa-calendar-alt"></i>{{upload_date}}</span>
+                                    <span><i class="fal fa-eye"></i>Views: <b>{{views}}</b></span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tp-list-details-top-price d-none d-xl-block">
-                           <span>$599</span>
-                           <del> $999</del>
-                        </div>
-                     </div>
-                     <div class="tp-list-details-top-right d-md-flex d-none  align-items-center ">
-                        <div class="tp-list-details-top-icon">
-                           <span class="theme-color">
-                              <svg width="14" height="15" viewBox="0 0 14 15" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M7 0.96875C10.7188 0.96875 13.7812 4.03125 13.7812 7.75C13.7812 11.4961 10.7188 14.5312 7 14.5312C3.25391 14.5312 0.21875 11.4961 0.21875 7.75C0.21875 4.03125 3.25391 0.96875 7 0.96875ZM7 13.2188C10.0078 13.2188 12.4688 10.7852 12.4688 7.75C12.4688 4.74219 10.0078 2.28125 7 2.28125C3.96484 2.28125 1.53125 4.74219 1.53125 7.75C1.53125 10.7852 3.96484 13.2188 7 13.2188ZM8.14844 10.375C8.14844 11.0312 7.62891 11.5234 7 11.5234C6.34375 11.5234 5.85156 11.0312 5.85156 10.375C5.85156 9.74609 6.34375 9.22656 7 9.22656C7.62891 9.22656 8.14844 9.74609 8.14844 10.375ZM5.90625 4.60547C5.90625 4.41406 6.04297 4.25 6.23438 4.25H7.73828C7.92969 4.25 8.06641 4.41406 8.06641 4.60547L7.875 8.32422C7.875 8.48828 7.71094 8.625 7.54688 8.625H6.42578C6.26172 8.625 6.09766 8.48828 6.09766 8.32422L5.90625 4.60547Z"
-                                    fill="currentcolor" />
-                              </svg>
-                           </span>
-                           <span>
-                              <svg width="11" height="15" viewBox="0 0 11 15" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M9.6875 0.75C10.3984 0.75 11 1.35156 11 2.0625V14.75L5.75 11.6875L0.5 14.75V2.0625C0.5 1.35156 1.07422 0.75 1.8125 0.75H9.6875ZM9.6875 12.4805V2.22656C9.6875 2.14453 9.60547 2.0625 9.52344 2.0625H1.97656C1.86719 2.0625 1.8125 2.14453 1.8125 2.22656V12.4805L5.75 10.1836L9.6875 12.4805Z"
-                                    fill="currentcolor" />
-                              </svg>
-                           </span>
-                           <i>Bookmark</i>
-                        </div>
-                        <div class="tp-list-details-top-social d-none d-lg-block">
-                           <a href="#"><i class="fab fa-facebook-f"></i></a>
-                           <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
-                           <a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a>
-                           <a class="youtube" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-               <div class="col-xl-9 col-lg-8">
-                  <div class="tp-list-details-wrap">
-                     <h4 class="tp-list-details-title pb-5">Overview</h4>
-                     <div class="tp-list-details-text">
-                        <p class="pb-5">The Apple MacBook Air 13.6-Inch laptop is powered by the new M2 chip. It is
-                           loaded with 8GB
-                           RAM and 256GB SSD. The MacBook Air features a brilliant Retina display, a FaceTime HD camera,
-                           and studio‑quality mics. It comes with the same compact design but now it supports up to 20
-                           hours of battery life and an active cooling system to sustain enhanced performance. macOS and
-                           M2 work together to bring more speed and responsiveness to all your go‑to apps. The Apple
-                           MacBook Air comes with active cooling that sustains blazing‑fast performance.</p>
-                        <p class="pb-25">The Apple M2 chip is an 8-core CPU with 4 performance cores and 4 efficiency
-                           cores. It comes
-                           with 10-core GPU, 16-core Neural Engine, and 100GB/s memory bandwidth for superfluid
-                           multitasking and working with massive files. The M2 is built using an enhanced
-                           second-generation 5‑nanometer technology. It features over 20 billion transistors - 25
-                           percent more than M1. And its 16-core Neural Engine is capable of executing up to 15.8
-                           trillion operations per second to accelerate machine learning tasks. The high-performance
-                           media engine on M2 supports ProRes encode and decode. So you can play and edit up to 11
-                           streams of 4K ProRes video and up to 2 streams of 8K ProRes video. The Apple MacBook Air
-                           13.6-Inch comes with a brilliant 13.6-inch (diagonal) LED-backlit display with IPS
-                           technology; 2560-by-1664 native resolution at 224 pixels per inch with support for millions
-                           of colors. It takes images on an incredible level of detail and realism. The bright LED
-                           backlighting delivers deep blacks and bright whites. It features 500 nits brightness, Wide
-                           color (P3), and True Tone technology.</p>
-                     </div>
-                     <h4 class="tp-list-details-title border-bottom mb-0 pb-25">Key Features</h4>
+                <div class="col-xl-9 col-lg-8">
+                    <div class="tp-list-details-wrap">
+                        <h4 class="tp-list-details-title pb-5">Overview</h4>
+                        <div class="tp-list-details-text">
+                            <p class="pb-5 blurred-content blurred">{{description}}</p>
+                            <div class="log-thumbnail-img blurred-content blurred">
+                                <img src="{{file_path}}" alt="">
+                            </div>
+                            <p class="pb-25">{{additional_description}}</p>
+                            <div class="log-price-box">
+                                <div class="log-price">
+                                    <a href="{{file_path}}" download="{{file_name}}">Download Document</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="subscribe-button" id="pay-button">Subscribe</button>
+                    </div>
+                </div>
+                                <h4 class="tp-list-details-title border-bottom mb-0 pb-25">Key Features</h4>
                      <div class="product__details-info mb-45">
                         <ul>
                            <li><i>MPN</i> <span>MLY33LL/A / MLY33ZP/A</span></li>
@@ -1264,6 +1246,50 @@
    <script src="assets/js/imagesloaded-pkgd.js"></script>
    <script src="assets/js/ajax-form.js"></script>
    <script src="assets/js/main.js"></script>
+   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+   <script>
+    document.getElementById('pay-button').onclick = function(e) {
+        var options = {
+            "key": "rzp_live_xU2eXjdttrjUQK",
+            "amount": 100,
+            "currency": "INR",
+            "name": "Your Company Name",
+            "description": "Subscription",
+            "handler": function (response) {
+                fetch('http://localhost:8888/Infrakonnect/verify_payment.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        payment_id: response.razorpay_payment_id
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Server response:', data); // Debugging line
+                    if (data.success) {
+                        document.querySelectorAll('.blurred-content').forEach(element => {
+                            element.classList.remove('blurred');
+                        });
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+            },
+            "prefill": {
+                "name": "Your Name",
+                "email": "your.email@example.com",
+                "contact": "9999999999"
+            },
+            "theme": {
+                "color": "#F37254"
+            }
+        };
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+        e.preventDefault();
+    }
+</script>
 </body>
 
 </html>

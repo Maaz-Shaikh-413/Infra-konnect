@@ -1,0 +1,1682 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>ListBnb - Classified Ads listing HTML Template </title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/custom-animation.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+
+   <!-- pre loader area start -->
+   <div id="loading">
+      <div id="loading-center">
+         <div id="loading-center-absolute">
+            <div class="object" id="object_four"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_one"></div>
+         </div>
+      </div>
+   </div>
+   <!-- pre loader area end -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+
+
+   <!-- tp-offcanvus-area-start -->
+   <div class="tpoffcanvas-are">
+      <div class="tpoffcanvas">
+         <div class="tpoffcanvas__close-btn">
+            <button class="close-btn"><i class="fal fa-times"></i></button>
+         </div>
+         <div class="tpoffcanvas__logo">
+            <a href="index.html">
+               <img src="assets/img/logo/logo-white.png" alt="">
+            </a>
+         </div>
+         <div class="tpoffcanvas__title">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt eaque ab cumque, porro maxime
+               autem sed.</p>
+         </div>
+         <div class="tp-main-menu-mobile d-xl-none"></div>
+         <div class="tpoffcanvas__contact-info">
+            <div class="tpoffcanvas__contact-title">
+               <h5>Contact us</h5>
+            </div>
+            <ul>
+               <li>
+                  <i class="fa-light fa-location-dot"></i>
+                  <a href="https://www.google.com/maps/@23.8223586,90.3661283,15z" target="_blank">Melbone st,
+                     Australia, Ny 12099</a>
+               </li>
+               <li>
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:solaredge@gmail.com">themepure@gmail.com</a>
+               </li>
+               <li>
+                  <i class="fal fa-phone-alt"></i>
+                  <a href="tel:+48555223224">+48 555 223 224</a>
+               </li>
+            </ul>
+         </div>
+         <div class="tpoffcanvas__input">
+            <div class="tpoffcanvas__input-title">
+               <h4>Get UPdate</h4>
+            </div>
+            <form action="#">
+               <div class="p-relative">
+                  <input type="text" placeholder="Enter mail">
+                  <button>
+                     <i class="fas fa-paper-plane"></i>
+                  </button>
+               </div>
+            </form>
+         </div>
+         <div class="tpoffcanvas__social">
+            <div class="social-icon">
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="body-overlay"></div>
+   <!-- tp-offcanvus-area-end -->
+
+   <header class="tp-header-height">
+
+      <!-- header-top area start -->
+      <div class="tp-header-top-area tp-header-top-style d-none d-md-block">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
+                  <div class="tp-header-logo">
+                     <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                  </div>
+               </div>
+               <div class="col-xxl-7 col-xl-6 col-lg-8 d-none d-lg-block">
+                  <div class="tp-header-search-box">
+                     <input type="text" placeholder="Search with keyword">
+                     <div class="search-icon">
+                        <i class="fa-regular fa-magnifying-glass"></i>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xxl-3 col-xl-4 col-lg-2 col-md-6 col-6">
+                  <div class="tp-header-right d-flex align-items-center justify-content-end">
+                     <div class="tp-header-sign-box d-none d-sm-block">
+                        <a href="login.html"><i class="fa-light fa-user"></i>Sign In</a>
+                     </div>
+                     <div class="tp-header-btn d-none d-xl-block">
+                        <a class="tp-btn-theme" href="listing-ads.html"><span>Post Your Ad <i
+                                 class="fa-sharp fa-regular fa-arrow-right-long"></i></span></a>
+                     </div>               
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- header-top area end -->
+
+      <!-- header area area -->
+      <div id="header-sticky" class="tp-header-area tp-header-style-3">
+         <div class="container">
+            <div class="tp-header-border">
+               <div class="row align-items-center">
+                  <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-6">
+                     <div class="tp-header__left d-flex align-items-center">
+                        <div class="tp-header__category-wrap d-none d-md-block">
+                           <div class="tp-header__category" id="tp-header__category-toogle">
+                              <ul>
+                                 <li>
+                                    <a href="javascript:void(0)">
+                                       Category
+                                       <span><i class="fa-regular fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="tp-header__category-submenu">
+                                       <li><a href="#">All Categories</a></li>
+                                       <li><a href="#">Audi</a></li>
+                                       <li><a href="#">BMW</a></li>
+                                       <li><a href="#">Jaguar</a></li>
+                                       <li><a href="#">Nissan</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="tp-header__area-wrap d-none d-md-block">
+                           <div class="tp-header__area" id="tp-header__area-toogle">
+                              <ul>
+                                 <li>
+                                    <a href="javascript:void(0)">
+                                       Area
+                                       <span><i class="fa-regular fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="tp-header__area-submenu">
+                                       <li>
+                                          <a href="#">USA</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Canada</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Russia</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Mexico</a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="tp-header-logo d-md-none">
+                           <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-7 col-xl-6 d-none d-xl-block">
+                     <div class="tp-header-menu">
+                        <nav class="tp-main-menu-content">
+                           <ul>
+                              <li class="has-dropdown">
+                                 <a href="index.html">Home</a>
+                                 <div class="tp-submenu submenu has-homemenu">
+                                    <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                                       <div class="col homemenu">
+                                          <div class="homemenu-thumb mb-15">
+                                             <img src="assets/img/menu/home-1.jpg" alt="">
+                                             <div class="homemenu-btn">
+                                                <a class="tp-menu-btn" href="index.html">Demo page</a>
+                                             </div>
+                                          </div>
+                                          <div class="homemenu-content text-center">
+                                             <h4 class="homemenu-title">
+                                                <a href="index.html">Home 01</a>
+                                             </h4>
+                                          </div>
+                                       </div>
+                                       <div class="col homemenu">
+                                          <div class="homemenu-thumb mb-15">
+                                             <img src="assets/img/menu/home-2.jpg" alt="">
+                                             <div class="homemenu-btn">
+                                                <a class="tp-menu-btn" href="index-2.html">Demo page</a>
+                                             </div>
+                                          </div>
+                                          <div class="homemenu-content text-center">
+                                             <h4 class="homemenu-title">
+                                                <a href="index-2.html">Home 02</a>
+                                             </h4>
+                                          </div>
+                                       </div>
+                                       <div class="col homemenu">
+                                          <div class="homemenu-thumb mb-15">
+                                             <img src="assets/img/menu/home-3.jpg" alt="">
+                                             <div class="homemenu-btn">
+                                                <a class="tp-menu-btn" href="index-3.html">Demo page</a>
+                                             </div>
+                                          </div>
+                                          <div class="homemenu-content text-center">
+                                             <h4 class="homemenu-title">
+                                                <a href="index-3.html">Home 03</a>
+                                             </h4>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="has-dropdown">
+                               <a href="listing-grid.html">Listings</a>
+                                 <ul class="submenu tp-submenu">
+                                    <li><a href="listing-grid.html">Listings Grid</a></li>
+                                    <li><a href="listing-list.html">Listings List</a></li>
+                                    <li><a href="listing-ads.html">Listings Ads</a></li>
+                                    <li><a href="listing-details-1.html">Listings Details 01</a></li>
+                                    <li><a href="listing-details-2.html">Listings Details 02</a></li>
+                                 </ul>
+                              </li>
+                              <li class="has-dropdown">
+                                 <a href="#">Pages</a>
+                                 <ul class="submenu tp-submenu">
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="conversation.html">Chat</a></li>
+                                    <li><a href="profile.html">Profile</a></li>
+                                    <li><a href="store.html">Store</a></li>
+                                    <li><a href="store-list.html">Store List</a></li>
+                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="price.html">Plans</a></li>
+                              <li class="has-dropdown">
+                                 <a href="contact.html">Contact</a>
+                                 <ul class="submenu tp-submenu">
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact-2.html">Contact 02</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-6">
+                     <div class="tp-header-right d-flex justify-content-end align-items-center">
+                        <div class="tp-header__lang-wrap text-end d-none d-sm-block">
+                           <div class="tp-header__lang text-start" id="tp-header__lang-toogle">
+                              <ul>
+                                 <li>
+                                    <a href="javascript:void(0)">
+                                       English
+                                       <span><i class="fa-regular fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="tp-header__lang-submenu">
+                                       <li>
+                                          <a href="#">Arabic</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Spanish</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Mandarin</a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="tp-header-bar d-xl-none">
+                           <button class="tp-menu-bar"><i class="fa-sharp fa-regular fa-bars-staggered"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- header area end -->
+
+   </header>
+
+
+   <main>
+
+      <!-- hero area start -->
+      <div class="tp-hero-3-area tp-hero-3-ptb fix p-relative">
+         <div class="tp-hero-3-shape-3">
+            <img src="assets/img/hero/shape-3-3.png" alt="">
+         </div>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xl-6 col-lg-6">
+                  <div class="tp-hero-3-left">
+                     <div class="tp-hero-3-ratting mb-30">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>Trusted by 1M+ users</span>
+                     </div>
+                     <h1 class="tp-hero-3-title mb-45">The largest <br>
+                        site for buying & selling in NYC.</h1>
+                     <div class="tp-hero-3-button">
+                        <a href="listing-grid.html" class="tp-btn-theme">
+                           <span>
+                              Earn Money Today
+                              <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                           </span>
+                        </a>
+                        <a href="listing-ads.html" class="tp-btn-border hover-2">
+                           <span>
+                              List Your Ads
+                              <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6">
+                  <div class="tp-hero-3-thumb-box p-relative">
+                     <div class="tp-hero-3-shape-1 d-none d-md-block">
+                        <img src="assets/img/hero/shape-3-1.png" alt="">
+                     </div>
+                     <div class="tp-hero-3-shape-2 d-none d-md-block">
+                        <img src="assets/img/hero/shape-3-2.png" alt="">
+                     </div>
+                     <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                           <div class="tp-hero-3-thumb-1">
+                              <img src="assets/img/hero/hero-3-1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                           <div class="tp-hero-3-thumb-2">
+                              <img src="assets/img/hero/hero-3-2.jpg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-hero-3-product-info d-inline-flex align-items-center justify-content-between">
+                        <div class="tp-hero-3-product-thumb">
+                           <img src="assets/img/hero/product-1-1.png" alt="">
+                        </div>
+                        <div class="tp-hero-3-product-price">
+                           <span>$599 <del>$999</del></span>
+                           <h6>Apple iPhone inspiring</h6>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- hero area end -->
+
+      <!-- feature area start -->
+      <div class="tp-feature-area tp-feature-ptb p-relative fix">
+         <div class="tp-feature-big-text">
+            <span>Listbnb</span>
+         </div>
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-xl-9 col-lg-10">
+                  <div class="tp-feature-title-box text-center mb-65">
+                     <div class="tp-feature-shape-1">
+                        <img src="assets/img/about/shape-1-1.png" alt="">
+                     </div>
+                     <h4 class="tp-section-title">About <i>Listbnb</i>, The Largest 
+                        <span class="p-relative">
+                           Marketplace
+                          <span class="tp-section-title-shape-4">
+                             <img src="assets/img/about/shape-2.png" alt="">
+                          </span>
+                        </span>
+                       Marketplace in <b>United States.</b></h4>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                  <div class="tp-feature-item tp-feature-item-style-1 p-relative fix">
+                     <div class="tp-feature-number">
+                        <span>01</span>
+                     </div>
+                     <div class="tp-feature-icon mb-35">
+                        <span>
+                           <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M33.911 12.0131C33.7241 11.7101 33.3271 11.6159 33.0242 11.8027C32.7213 11.9894 32.6271 12.3865 32.8138 12.6894C33.9292 14.4988 34.5661 16.5593 34.6755 18.684H31.4583C31.1589 17.4197 30.0178 16.4742 28.6663 16.4742C27.3145 16.4742 26.1732 17.4197 25.8737 18.684H22.6377V14.8946C22.6377 14.5386 22.3493 14.2501 21.9933 14.2501C21.1222 14.2501 20.4136 13.5414 20.4136 12.6705C20.4136 11.7995 21.1222 11.0908 21.9933 11.0908C22.3493 11.0908 22.6377 10.8023 22.6377 10.4464V6.658C25.8878 6.81817 28.8958 8.18822 31.1658 10.5569C31.4669 10.8151 31.7706 10.8215 32.077 10.5764C32.3339 10.3301 32.3427 9.9221 32.0964 9.66517C29.4337 6.88665 25.8491 5.35566 22.0021 5.35334C21.9991 5.35334 21.9963 5.35291 21.9933 5.35291C21.9903 5.35291 21.9876 5.35334 21.9847 5.35334C18.5849 5.3554 15.3118 6.58341 12.7677 8.81172C12.5 9.04622 12.473 9.45344 12.7076 9.72111C12.9421 9.98895 13.3493 10.0158 13.617 9.78135C15.767 7.89813 18.4914 6.80262 21.3488 6.65894V9.87492C20.0764 10.1682 19.1247 11.3104 19.1247 12.6705C19.1247 14.0307 20.0764 15.1729 21.3488 15.4662V18.6842H17.545C17.189 18.6842 16.9005 18.9728 16.9005 19.3287V19.3437C16.9005 20.2148 16.1916 20.9233 15.3201 20.9233C14.449 20.9233 13.7405 20.2147 13.7405 19.3437V19.3287C13.7405 18.9728 13.452 18.6842 13.096 18.6842H9.30918C9.43627 16.1588 10.291 13.7723 11.8013 11.7468C12.0141 11.4614 11.9552 11.0577 11.6699 10.8449C11.3847 10.6322 10.9808 10.691 10.768 10.9763C8.96263 13.3974 8.00658 16.2855 8.00306 19.3288C7.87425 24.6442 11.2662 29.7444 16.0115 31.9929C16.5513 32.2487 16.9002 32.8049 16.9002 33.41V34.6947C15.5771 34.6947 14.6754 35.4034 14.6754 36.6736C14.6754 37.9429 15.5484 38.6537 16.9002 38.6526V41.5853C16.9002 42.8612 18.0448 44 19.3148 44H24.6716C25.9416 44 27.0862 42.8616 27.0862 41.5853V38.6526C28.5955 38.6538 29.3115 37.8517 29.311 36.6736C29.3104 35.4454 28.5382 34.6947 27.0862 34.6947V33.41C27.0862 32.8048 27.437 32.2476 27.9802 31.9902C32.8619 29.6753 35.8968 24.6953 35.9833 19.3282C35.9807 16.7376 35.2641 14.2081 33.911 12.0131ZM16.5634 30.8279C12.3366 28.825 9.54282 24.611 9.3097 19.9729H12.521C12.8087 21.2529 13.9545 22.212 15.32 22.212C16.6859 22.212 17.832 21.2529 18.1198 19.9729H21.3486V23.7917C21.3486 24.1476 21.6371 24.4361 21.9931 24.4361C22.8642 24.4361 23.5727 25.1448 23.5727 26.0158C23.5727 26.8867 22.8642 27.5954 21.9931 27.5954C21.6371 27.5954 21.3486 27.8839 21.3486 28.2399V34.6943H18.189V33.4097C18.1891 32.3093 17.551 31.2958 16.5634 30.8279ZM24.6716 42.7108H19.3148C18.4957 42.7108 18.1488 41.9817 18.1891 41.3359H25.7972C25.7986 42.0233 25.5807 42.7108 24.6716 42.7108ZM27.3311 37.3635H23.3474C22.9914 37.3635 22.703 37.652 22.703 38.0079C22.703 38.0094 22.7031 38.0108 22.7031 38.0122C22.7031 38.0137 22.703 38.0151 22.703 38.0165C22.703 38.3725 22.9914 38.661 23.3474 38.661H25.7973V40.047H18.1892V38.661H20.5393C20.8953 38.661 21.1838 38.3725 21.1838 38.0165C21.1838 38.0151 21.1836 38.0137 21.1836 38.0122C21.1836 38.0108 21.1838 38.0094 21.1838 38.0079C21.1838 37.652 20.8953 37.3635 20.5393 37.3635H16.6553C15.6345 37.3789 15.6059 35.9835 16.6553 35.9835H27.3312C28.223 35.9835 28.3519 37.3646 27.3311 37.3635ZM27.428 30.8253C26.4373 31.2947 25.7972 32.3093 25.7972 33.4099V34.6945H22.6376V28.8115C23.91 28.5182 24.8617 27.376 24.8617 26.0158C24.8617 24.6557 23.91 23.5135 22.6376 23.2202V19.9729H26.4414C26.7957 19.9729 27.0836 19.6868 27.0859 19.3325C27.0914 18.4671 27.8004 17.763 28.6663 17.763C29.5317 17.763 30.2404 18.4671 30.246 19.3325C30.2482 19.6868 30.5362 19.9729 30.8904 19.9729H34.6766C34.4432 24.6095 31.6515 28.8225 27.428 30.8253Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M21.9931 3.95815C21.6371 3.95815 21.3486 3.6696 21.3486 3.31368V0.644468C21.3486 0.28855 21.6371 0 21.9931 0C22.3491 0 22.6376 0.28855 22.6376 0.644468V3.31368C22.6376 3.6696 22.3491 3.95815 21.9931 3.95815Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M31.011 6.37443C30.7019 6.19802 30.5972 5.80231 30.7751 5.49409L32.1097 3.18251C32.2876 2.87428 32.6815 2.7685 32.99 2.94663C33.2982 3.12459 33.4039 3.51875 33.2259 3.82698L31.8913 6.13855C31.7721 6.34521 31.3597 6.57344 31.011 6.37443Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M37.6118 12.9756C37.4339 12.6673 37.5395 12.2732 37.8477 12.0952L40.1592 10.7607C40.4673 10.5827 40.8617 10.6882 41.0395 10.9965C41.2175 11.3048 41.1119 11.6989 40.8037 11.8769L38.4922 13.2114C38.126 13.4262 37.7311 13.1824 37.6118 12.9756Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M2.9464 32.9899C2.78142 32.6745 2.87405 32.2875 3.18228 32.1095L5.49377 30.7749C5.80183 30.597 6.19607 30.7025 6.37412 31.0108C6.55208 31.319 6.44647 31.7132 6.13824 31.8912L3.82675 33.2257C3.4539 33.4262 3.11019 33.303 2.9464 32.9899Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M12.0953 6.13853L10.7608 3.82696C10.5828 3.51873 10.6884 3.12457 10.9966 2.94661C11.3047 2.76857 11.699 2.87417 11.877 3.18249L13.2115 5.49407C13.3895 5.80229 13.2764 6.18416 12.9757 6.37441C12.6271 6.5949 12.2147 6.34528 12.0953 6.13853Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M5.49417 13.2116L3.18267 11.877C2.87445 11.6991 2.76884 11.3049 2.9468 10.9967C3.12467 10.6884 3.51866 10.5828 3.82714 10.7608L6.13864 12.0954C6.44686 12.2733 6.59853 12.6991 6.37451 12.9757C6.09662 13.3188 5.81735 13.3618 5.49417 13.2116Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M40.1597 33.2258L37.8482 31.8913C37.54 31.7133 37.4344 31.3192 37.6123 31.0109C37.7902 30.7026 38.1845 30.5971 38.4927 30.7751L40.8042 32.1096C41.1124 32.2876 41.2322 32.6903 41.04 32.99C40.8333 33.3124 40.5325 33.4477 40.1597 33.2258Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M3.3136 22.6378H0.644468C0.288464 22.6378 0 22.3493 0 21.9933C0 21.6374 0.288464 21.3489 0.644468 21.3489H3.31368C3.66969 21.3489 3.95815 21.6374 3.95815 21.9933C3.95815 22.3493 3.6696 22.6378 3.3136 22.6378Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M43.342 22.6378H40.6728C40.3168 22.6378 40.0283 22.3493 40.0283 21.9933C40.0283 21.6374 40.3168 21.3489 40.6728 21.3489H43.342C43.698 21.3489 43.9865 21.6374 43.9865 21.9933C43.9865 22.3493 43.698 22.6378 43.342 22.6378Z"
+                                 fill="currentcolor" />
+                           </svg>
+                        </span>
+                     </div>
+                     <div class="tp-feature-content">
+                        <h4 class="tp-feature-title pb-20">61,672 ads <span>in Electronics</span></h4>
+                        <a href="#">Desktop Computers</a><i>/</i>
+                        <a href="#">Laptops</a><i>/</i>
+                        <a href="#">TVs</a><i>/</i>
+                        <a href="#">Cameras ,Camcorders</a>
+                        <a href="#">& Accessories</a><i>/</i>
+                        <a href="#">Audio & Sound Systems</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                  <div class="tp-feature-item tp-feature-item-style-2 p-relative fix">
+                     <div class="tp-feature-number">
+                        <span>02</span>
+                     </div>
+                     <div class="tp-feature-icon mb-35">
+                        <span>
+                           <svg width="49" height="44" viewBox="0 0 49 44" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M47.5151 27.8094C46.6016 26.4669 44.7619 26.1116 43.4153 27.0166L37.2864 31.1183L37.2686 18.351L39.3978 20.3457C39.8506 20.7698 40.441 21.0032 41.0608 21.0032C41.062 21.0032 41.0633 21.0032 41.0645 21.0032C41.7337 21.0022 42.3798 20.7218 42.8371 20.2335C43.2815 19.7592 43.5146 19.1403 43.4934 18.4906C43.4722 17.841 43.1992 17.2385 42.7249 16.7941L38.6881 13.0126C38.4118 12.7538 37.978 12.7679 37.7192 13.0443C37.4604 13.3206 37.4745 13.7543 37.7508 14.0132L41.7875 17.7947C41.9946 17.9887 42.1138 18.2517 42.123 18.5353C42.1322 18.8188 42.0305 19.0891 41.8365 19.2961C41.6339 19.5124 41.359 19.6317 41.0624 19.6321C41.0619 19.6321 41.0614 19.6321 41.0608 19.6321C40.7904 19.6321 40.5327 19.5302 40.3351 19.3451L40.335 19.345L24.3061 4.32939C24.042 4.08204 23.6309 4.08241 23.3674 4.3307L7.38017 19.3912C7.17371 19.5858 6.90375 19.6876 6.6201 19.6797C6.33645 19.6713 6.07315 19.5528 5.8786 19.3462C5.68406 19.1397 5.58154 18.8698 5.59007 18.5862C5.59851 18.3026 5.71698 18.0393 5.92344 17.8447L23.1056 1.65859C23.5129 1.27485 24.1519 1.27391 24.5602 1.65662L34.6126 11.0735C34.8888 11.3323 35.3227 11.3182 35.5815 11.0419C35.8403 10.7655 35.8262 10.3318 35.5499 10.0729L25.4977 0.656047C24.5622 -0.22043 23.0986 -0.21846 22.1656 0.660643L16.6652 5.84221L16.6637 4.91799C16.6633 4.62664 16.5494 4.35293 16.3431 4.14732C16.1372 3.94199 15.8639 3.82896 15.5731 3.82896C15.5726 3.82896 15.5721 3.82896 15.5715 3.82896L11.6369 3.83449C11.3455 3.83487 11.0719 3.94874 10.8662 4.15501C10.6606 4.36128 10.5475 4.63527 10.5479 4.92671L10.5588 11.5947L4.98337 16.8469C4.51023 17.2926 4.23906 17.8958 4.21964 18.5455C4.20022 19.1952 4.43501 19.8135 4.88065 20.2864C5.32621 20.7596 5.92944 21.0308 6.5792 21.0503C6.60406 21.051 6.62892 21.0514 6.65378 21.0514C7.27614 21.0514 7.8655 20.8178 8.32034 20.3892L10.4448 18.3878L10.4533 24.4184C9.76591 24.3183 9.07047 24.2658 8.37183 24.2658H7.19885V23.8547C7.19885 22.4748 6.07615 21.3521 4.69624 21.3521H2.50261C1.1227 21.352 0 22.4746 0 23.8546V34.5965C0 34.9751 0.306917 35.282 0.685498 35.282C1.06408 35.282 1.371 34.9751 1.371 34.5965V23.8546C1.371 23.2307 1.87865 22.723 2.50261 22.723H4.69615C5.32011 22.723 5.82776 23.2307 5.82776 23.8546V24.9512V39.0022V40.0879C5.82776 40.7119 5.32011 41.2195 4.69615 41.2195H2.50261C1.87865 41.2195 1.371 40.7119 1.371 40.0879V38.8884C1.371 38.5098 1.06408 38.2029 0.685498 38.2029C0.306917 38.2029 0 38.5098 0 38.8884V40.0879C0 41.4678 1.1227 42.5905 2.50261 42.5905H4.69615C6.07606 42.5905 7.19876 41.4679 7.19876 40.0879V39.9948L17.2377 43.7964C17.2563 43.8034 17.2751 43.8096 17.2943 43.8149C17.7307 43.9382 18.167 44 18.5977 44C18.8307 44 19.0621 43.9819 19.2912 43.9457L34.0443 41.819C34.0478 41.8186 34.0512 41.818 34.0546 41.8174C35.309 41.6172 36.4923 41.0869 37.4765 40.2842C37.485 40.2772 37.4935 40.27 37.5016 40.2626L47.0329 31.6903C48.1428 30.7049 48.35 29.0365 47.5151 27.8094ZM15.293 5.20042L15.2962 7.13179L11.9276 10.3051L11.9193 5.20502L15.293 5.20042ZM23.8387 5.77017L35.8957 17.0649L35.9166 32.0349L33.9758 33.3339L31.9205 33.2186L31.8662 32.6727C31.6749 30.7499 30.2555 29.2033 28.3787 28.8342L28.3663 19.9282C28.3653 19.2448 27.8089 18.6894 27.1256 18.6894C27.125 18.6894 27.1245 18.6894 27.1239 18.6894L20.5903 18.6986C20.2589 18.699 19.9474 18.8285 19.7135 19.0632C19.4795 19.2978 19.3509 19.6096 19.3513 19.9409L19.3622 27.7058C18.068 27.41 16.8323 26.9214 15.677 26.2455C15.5328 26.1612 15.3872 26.0798 15.2404 26.0006C15.1832 25.9698 15.125 25.9408 15.0674 25.9107C14.9781 25.864 14.8889 25.8171 14.7987 25.7724C14.7269 25.7368 14.6542 25.703 14.5817 25.6686C14.5049 25.6321 14.4282 25.5952 14.3508 25.56C14.272 25.5243 14.1926 25.4902 14.1132 25.4559C14.0407 25.4246 13.9682 25.3931 13.8952 25.363C13.8136 25.3293 13.7315 25.2969 13.6494 25.2647C13.5765 25.2362 13.5035 25.2079 13.4302 25.1805C13.3489 25.1501 13.2672 25.1208 13.1853 25.092C13.1085 25.0649 13.0316 25.0384 12.9543 25.0126C12.8759 24.9864 12.7973 24.9608 12.7183 24.936C12.6342 24.9094 12.5496 24.8841 12.465 24.8591C12.3923 24.8377 12.3197 24.8163 12.2467 24.796C12.1513 24.7695 12.0554 24.7446 11.9594 24.72C11.9145 24.7085 11.8699 24.6955 11.8247 24.6843L11.8141 17.0979L23.8387 5.77017ZM27.0075 28.6626L21.2739 28.0025L20.7337 27.9403L20.7226 20.0694L26.9955 20.0606L27.0075 28.6626ZM46.1194 30.6682L36.5976 39.232C35.8041 39.8754 34.8523 40.301 33.8435 40.4629L19.0968 42.5886C19.0937 42.589 19.0907 42.5895 19.0876 42.59L19.0773 42.5916C18.6306 42.6623 18.1653 42.6325 17.6943 42.5032L7.19885 38.5287V25.6367H8.37183C9.37035 25.6367 10.3621 25.7519 11.3279 25.9758C11.3638 25.9842 11.3996 25.9927 11.4355 26.0014C11.5541 26.03 11.6725 26.0594 11.7903 26.0913C11.8006 26.0941 11.8109 26.0971 11.8212 26.1C11.9393 26.1322 12.0569 26.1663 12.1742 26.2018C12.1952 26.2082 12.2163 26.2145 12.2372 26.221C12.3619 26.2595 12.4861 26.2997 12.6097 26.342C12.6224 26.3464 12.6351 26.3509 12.6478 26.3553C12.9051 26.4441 13.1599 26.541 13.4115 26.6459C13.4252 26.6516 13.4389 26.6573 13.4526 26.6631C13.578 26.7158 13.7026 26.7703 13.8265 26.827C13.8297 26.8285 13.8331 26.8301 13.8364 26.8317C13.9561 26.8867 14.0749 26.9437 14.193 27.0023C14.2069 27.0092 14.2209 27.0159 14.2348 27.0229C14.3502 27.0805 14.4646 27.1403 14.5784 27.2015C14.5998 27.213 14.6212 27.2248 14.6427 27.2364C14.7575 27.299 14.8717 27.3628 14.9847 27.4289C16.616 28.3832 18.3918 29.0012 20.263 29.266C20.2689 29.2669 20.2747 29.2676 20.2806 29.2683L27.9611 30.1525C28.0036 30.1586 28.0458 30.1657 28.0878 30.1735C29.2185 30.3859 30.1109 31.2214 30.4094 32.3094C30.4537 32.4705 30.4849 32.6373 30.5019 32.8083L30.5324 33.115L16.1377 31.8539C15.7608 31.821 15.428 32.0998 15.395 32.4769C15.3619 32.8541 15.6409 33.1866 16.018 33.2196L31.2365 34.553C31.2401 34.5533 31.2437 34.5532 31.2473 34.5535C31.2508 34.5538 31.2543 34.5543 31.258 34.5546L34.128 34.7157C34.1409 34.7164 34.1536 34.7167 34.1664 34.7167C34.18 34.7167 34.1934 34.7145 34.2069 34.7137C34.2222 34.7128 34.2375 34.7122 34.2527 34.7103C34.2731 34.7077 34.2931 34.7033 34.3132 34.6989C34.3275 34.6957 34.342 34.6933 34.356 34.6892C34.378 34.6829 34.3991 34.6744 34.4204 34.6659C34.4318 34.6613 34.4436 34.6578 34.4549 34.6525C34.4869 34.6377 34.518 34.6206 34.5477 34.6008L36.9839 32.9704L36.9841 32.9701L44.1789 28.1551C44.9027 27.6686 45.8908 27.8595 46.3815 28.5806C46.8301 29.2397 46.7187 30.1359 46.1194 30.6682Z"
+                                 fill="currentcolor" />
+                           </svg>
+                        </span>
+                     </div>
+                     <div class="tp-feature-content">
+                        <h4 class="tp-feature-title pb-20">15,300 ads <span>in Apartments</span></h4>
+                        <a href="#">Apartments For Sale</a><i>/</i>
+                        <a href="#">Land</a><i>/</i>
+                        <a href="#">Room Apartment Rentals </a><i>/</i>
+                        <a href="#">Commercial Property Rentals </a>
+                        <a href="#">Room Rentals</a><i>/</i>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+                  <div class="tp-feature-item tp-feature-item-style-3 p-relative fix">
+                     <div class="tp-feature-number">
+                        <span>03</span>
+                     </div>
+                     <div class="tp-feature-icon mb-35">
+                        <span>
+                           <svg width="49" height="40" viewBox="0 0 49 40" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M6.5633 17.2837H41.7721C42.1981 17.2837 42.5434 16.9384 42.5434 16.5124C42.5434 16.0864 42.1981 15.7411 41.7721 15.7411H6.5633C6.13733 15.7411 5.79199 16.0864 5.79199 16.5124C5.79199 16.9384 6.13733 17.2837 6.5633 17.2837Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M47.6637 19.3443L45.6696 16.2046L44.9227 13.2043H46.5355C46.9615 13.2043 47.3068 12.8589 47.3068 12.433C47.3068 12.007 46.9615 11.6617 46.5355 11.6617H44.5387L42.5265 3.57887C42.0269 1.57203 40.0155 0 37.9475 0H10.3878C8.31973 0 6.30837 1.57203 5.80877 3.57887L3.79658 11.6617H1.79972C1.37375 11.6617 1.02841 12.007 1.02841 12.433C1.02841 12.8589 1.37375 13.2043 1.79972 13.2043H3.41247L2.66554 16.2046L0.671449 19.3444C0.288675 19.9472 0 20.9404 0 21.6544V32.8268C0 33.2528 0.34534 33.5981 0.771307 33.5981H1.02841V39.2287C1.02841 39.6547 1.37375 40 1.79972 40H9.915C10.341 40 10.6863 39.6547 10.6863 39.2287V35.9121C10.6863 35.4861 10.341 35.1408 9.915 35.1408C9.48903 35.1408 9.14369 35.4861 9.14369 35.9121V38.4574H2.57102V33.5981H13.5696C13.5717 33.5981 34.7769 33.5981 34.7769 33.5981C34.7839 33.5981 45.7642 33.5981 45.7642 33.5981V38.4574H39.1916V35.9121C39.1916 35.4861 38.8462 35.1408 38.4203 35.1408C37.9943 35.1408 37.6489 35.4861 37.6489 35.9121V39.2287C37.6489 39.6547 37.9943 40 38.4203 40H46.5355C46.9615 40 47.3068 39.6547 47.3068 39.2287V33.5981H47.5639C47.9899 33.5981 48.3353 33.2528 48.3353 32.8268V21.6544C48.3353 20.9404 48.0466 19.9472 47.6637 19.3443ZM1.54261 21.6544C1.54261 21.2336 1.74809 20.5266 1.97372 20.1714L4.03486 16.926C4.07929 16.8559 4.1122 16.7792 4.13225 16.6988L7.30572 3.95146C7.6308 2.64569 9.04219 1.54261 10.3878 1.54261H37.9475C39.2931 1.54261 40.7046 2.64579 41.0295 3.95156L44.2029 16.6987C44.223 16.7791 44.2559 16.8558 44.3003 16.9259L46.3614 20.1713C46.5871 20.5266 46.7925 21.2336 46.7925 21.6544V32.0555H35.3017L33.4387 27.394C33.3217 27.101 33.0381 26.9089 32.7226 26.9089H15.6127C15.2972 26.9089 15.0135 27.101 14.8965 27.394L13.0336 32.0555H1.54261V21.6544ZM33.6405 32.0555H14.6947L16.1351 28.4515H32.2001L33.6405 32.0555Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M3.85627 28.1945H6.75844C9.05766 28.1945 10.9283 26.3239 10.9283 24.0246C10.9283 21.7254 9.05776 19.8547 6.75844 19.8547H4.4259C3.99994 19.8547 3.6546 20.2001 3.6546 20.626C3.6546 21.052 3.99994 21.3974 4.4259 21.3974H6.75844C8.20706 21.3974 9.38572 22.5759 9.38572 24.0246C9.38572 25.4734 8.20716 26.6519 6.75844 26.6519H3.85627C3.4303 26.6519 3.08496 26.9972 3.08496 27.4232C3.08496 27.8492 3.4303 28.1945 3.85627 28.1945Z"
+                                 fill="currentcolor" />
+                              <path
+                                 d="M37.4067 24.0246C37.4067 26.3239 39.2773 28.1945 41.5766 28.1945H44.4788C44.9048 28.1945 45.2501 27.8492 45.2501 27.4232C45.2501 26.9972 44.9048 26.6519 44.4788 26.6519H41.5766C40.128 26.6519 38.9494 25.4734 38.9494 24.0246C38.9494 22.576 40.1279 21.3974 41.5766 21.3974H43.9093C44.3352 21.3974 44.6806 21.052 44.6806 20.626C44.6806 20.2001 44.3352 19.8547 43.9093 19.8547H41.5766C39.2773 19.8547 37.4067 21.7253 37.4067 24.0246Z"
+                                 fill="currentcolor" />
+                           </svg>
+                        </span>
+                     </div>
+                     <div class="tp-feature-content">
+                        <h4 class="tp-feature-title pb-20">61,672 ads <span>in Vehicles</span></h4>
+                        <a href="#">Cars</a><i>/</i>
+                        <a href="#">Motorbikes</a><i>/</i>
+                        <a href="#">Bicycles</a><i>/</i>
+                        <a href="#"> Trucks</a><i>/</i>
+                        <a href="#">Auto Parts & Accessories </a><i>/</i>
+                        <a href="#">Rent Car, Bike, Cycle.</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- feature area end -->
+
+      <!-- feature-ads area start -->
+      <div class="tp-fea-ads-2-area">
+         <div class="container">
+            <div class="tp-fea-ads-2-border pt-110 pb-110">
+               <div class="row">
+                  <div class="col-xl-12">
+                     <div class="tp-fea-ads-2-title-box text-center pb-50">
+                        <h4 class="tp-section-title-2 pb-5">Featured
+                           <span class="p-relative">
+                              ads
+                              <span class="tp-section-title-shape">
+                                 <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.2132 42.7799L35.7089 36.0624" stroke="#F50963" stroke-width="2"
+                                       stroke-linecap="round" />
+                                    <path d="M3.53575 25.1023L11.6675 9.89954" stroke="#F50963" stroke-width="2"
+                                       stroke-linecap="round" />
+                                    <path d="M12.7282 34.2947L33.5879 12.0209" stroke="#F50963" stroke-width="2"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </span>
+                        </h4>
+                        <p>Listbnb is a platform on which you can buy and sell almost everything!</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                     <div class="tp-fea-ads-item item-style-1">
+                        <div class="tp-fea-ads-thumb-box p-relative">
+                           <div class="tp-fea-ads-thumb">
+                              <a href="listing-details-1.html"><img src="assets/img/fea-ads/ads-1-1.png" alt=""></a>
+                           </div>
+                           <div class="tp-fea-ads-2-icon">
+                              <span>
+                                 <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M17.8473 15.8463C14.8304 12.8302 12.3845 8.54751 12.0597 7.96752V6.65771C12.0597 6.39693 12.1153 5.9735 12.2247 5.39916C12.2555 5.23772 12.1498 5.08193 11.9883 5.05141C11.8271 5.02059 11.6716 5.12633 11.6407 5.28777C11.5562 5.72936 11.5031 6.08367 11.4793 6.36046H6.45427C6.36623 5.34911 5.90908 3.54812 5.7954 3.11049C5.90435 2.85643 6.07448 2.6895 6.31313 2.6007C7.08065 2.31612 8.38283 2.89962 8.81969 3.14864C8.91094 3.20052 9.02309 3.20052 9.11419 3.14864C9.55151 2.89962 10.8538 2.31566 11.6217 2.6007C11.8599 2.6895 12.03 2.85674 12.1394 3.11049C12.095 3.28017 11.9975 3.6624 11.8913 4.11864C11.8541 4.27886 11.9535 4.43862 12.1133 4.47585C12.2734 4.51308 12.4331 4.41359 12.4704 4.25383C12.612 3.64653 12.7372 3.17351 12.7388 3.16878C12.7539 3.11049 12.7514 3.04946 12.7313 2.99285C12.6016 2.62801 12.3892 2.35457 12.0982 2.17498C12.0709 1.76192 11.9186 0.767198 11.1052 0.0715497C11.0382 0.0144818 10.9497 -0.0105426 10.8628 0.00410582C10.7765 0.0184491 10.7008 0.070329 10.6559 0.146013C10.6302 0.189195 10.0653 1.1534 9.98486 2.13088C9.93969 2.14568 9.89407 2.16033 9.84768 2.1765C9.46468 2.30849 9.14394 2.46199 8.96725 2.55309C8.78994 2.46199 8.46966 2.30849 8.08636 2.1765C8.04027 2.16033 7.9948 2.14568 7.94918 2.13088C7.86861 1.1534 7.30419 0.189195 7.2784 0.146013C7.23354 0.070329 7.15786 0.0184491 7.07104 0.00410582C6.98467 -0.0105426 6.89586 0.0144818 6.82918 0.0715497C6.01543 0.767198 5.86315 1.76222 5.83614 2.17498C5.54516 2.35457 5.33275 2.62801 5.20305 2.99285C5.18291 3.04946 5.18047 3.11049 5.19588 3.16878C5.20275 3.19411 5.87459 5.73562 5.87459 6.65771V7.96752C5.54958 8.54751 3.1036 12.8302 0.0867779 15.8463C0.0272686 15.9056 -0.00401194 15.9874 0.000413098 16.0713C0.00438037 16.1554 0.0439007 16.2335 0.108903 16.2866C0.141557 16.3132 0.860246 16.8951 2.10384 17.5458C2.10338 17.5458 2.10308 17.5461 2.10308 17.5465C2.05272 17.6103 2.03044 17.692 2.04204 17.7725C2.05348 17.8529 2.09743 17.9251 2.16335 17.9723C2.18624 17.9889 2.73525 18.3791 3.6848 18.8155C3.72524 18.8338 3.7672 18.8428 3.80886 18.8428C3.92147 18.8428 4.02919 18.7782 4.07924 18.6696C4.14775 18.5202 4.08245 18.3437 3.93337 18.2751C3.40725 18.0333 3.0093 17.805 2.76943 17.6575C5.18963 14.4821 7.08294 10.117 7.10201 10.0722C7.16701 9.92156 7.09759 9.7467 6.94698 9.68169C6.79592 9.61669 6.62105 9.68612 6.55605 9.83718C6.53744 9.87991 4.76101 13.9738 2.47005 17.0656C1.65935 16.6478 1.06471 16.2506 0.747636 16.0229C3.58959 13.0926 5.88054 9.16366 6.34594 8.34182H11.5879C12.0538 9.16366 14.3448 13.0926 17.1867 16.0229C16.8704 16.2502 16.277 16.647 15.4643 17.0656C13.1729 13.9738 11.3964 9.87991 11.3778 9.83718C11.3133 9.68612 11.138 9.61669 10.9874 9.68169C10.8363 9.7467 10.767 9.92156 10.832 10.0722C10.8514 10.117 12.7447 14.4817 15.1646 17.6572C14.4026 18.1248 12.0352 19.4054 8.96725 19.4054C7.64782 19.4054 6.31664 19.1719 5.01079 18.7112C4.85576 18.6565 4.68609 18.7378 4.63146 18.8928C4.57714 19.0474 4.65847 19.2174 4.81304 19.2722C6.18267 19.7549 7.58053 20 8.96725 20C12.8903 20 15.6549 18.0551 15.7707 17.9723C15.8369 17.9251 15.8806 17.8529 15.892 17.7725C15.9034 17.692 15.8818 17.6103 15.8314 17.5465C15.831 17.5461 15.8305 17.5458 15.8305 17.5458C17.0738 16.8951 17.7925 16.3132 17.825 16.2866C17.89 16.2335 17.9297 16.1554 17.9341 16.0713C17.938 15.9874 17.9066 15.9056 17.8473 15.8463ZM10.9861 0.801683C11.2942 1.19109 11.421 1.64015 11.473 1.95372C11.2133 1.91451 10.9224 1.92244 10.6025 1.97753C10.6735 1.53197 10.849 1.09389 10.9861 0.801683ZM6.9482 0.801683C7.08538 1.09389 7.26055 1.53197 7.33196 1.97753C7.01198 1.92244 6.721 1.91451 6.46129 1.95372C6.51333 1.64015 6.63982 1.19109 6.9482 0.801683ZM11.4651 7.74718H6.46923V6.9551H11.4651V7.74718Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="tp-fea-ads-2-content">
+                           <div class="tp-fea-ads-2-meta">
+                              <span>Paris</span>
+                              <span>1 days ago</span>
+                           </div>
+                           <h4 class="tp-fea-ads-2-title"><a href="listing-details-1.html">Tx9 Pro Smart Tv Box 8/128gb
+                                 Best Price: Urgent</a></h4>
+                           <div class="tp-fea-ads-2-price-box d-flex align-items-center justify-content-between">
+                              <div class="tp-fea-ads-2-price">
+                                 <span>$499</span>
+                              </div>
+                              <div class="tp-fea-ads-2-price-icon">
+                                 <a href="#"><i class="fa-light fa-bookmark"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                     <div class="tp-fea-ads-item item-style-2">
+                        <div class="tp-fea-ads-thumb-box p-relative">
+                           <div class="tp-fea-ads-thumb">
+                              <a href="listing-details-1.html"><img src="assets/img/fea-ads/ads-1-2.png" alt=""></a>
+                           </div>
+                           <div class="tp-fea-ads-2-icon">
+                              <span>
+                                 <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M2.71563 7.15148H17.2842C17.4605 7.15148 17.6034 7.00859 17.6034 6.83233C17.6034 6.65608 17.4605 6.51318 17.2842 6.51318H2.71563C2.53938 6.51318 2.39648 6.65608 2.39648 6.83233C2.39648 7.00859 2.53938 7.15148 2.71563 7.15148Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M19.7221 8.00421L18.897 6.70506L18.588 5.46362H19.2553C19.4316 5.46362 19.5745 5.32072 19.5745 5.14447C19.5745 4.96821 19.4316 4.82532 19.2553 4.82532H18.4291L17.5965 1.48085C17.3897 0.650468 16.5575 0 15.7018 0H4.29821C3.44251 0 2.61026 0.650468 2.40353 1.48085L1.57094 4.82532H0.744681C0.568425 4.82532 0.425532 4.96821 0.425532 5.14447C0.425532 5.32072 0.568425 5.46362 0.744681 5.46362H1.412L1.10294 6.70506L0.27783 8.00426C0.119447 8.2537 0 8.66464 0 8.96009V13.583C0 13.7592 0.142894 13.9021 0.319149 13.9021H0.425532V16.2319C0.425532 16.4082 0.568425 16.5511 0.744681 16.5511H4.1026C4.27885 16.5511 4.42174 16.4082 4.42174 16.2319V14.8596C4.42174 14.6833 4.27885 14.5404 4.1026 14.5404C3.92634 14.5404 3.78345 14.6833 3.78345 14.8596V15.9128H1.06383V13.9021H5.61477C5.61566 13.9021 14.3899 13.9021 14.3899 13.9021C14.3928 13.9021 18.9362 13.9021 18.9362 13.9021V15.9128H16.2166V14.8596C16.2166 14.6833 16.0737 14.5404 15.8974 14.5404C15.7211 14.5404 15.5783 14.6833 15.5783 14.8596V16.2319C15.5783 16.4082 15.7211 16.5511 15.8974 16.5511H19.2553C19.4316 16.5511 19.5745 16.4082 19.5745 16.2319V13.9021H19.6809C19.8571 13.9021 20 13.7592 20 13.583V8.96009C20 8.66464 19.8806 8.2537 19.7221 8.00421ZM0.638298 8.96009C0.638298 8.78596 0.723319 8.49345 0.816681 8.34647L1.66953 7.00357C1.68791 6.9746 1.70153 6.94285 1.70983 6.90957L3.02294 1.63502C3.15745 1.09472 3.74145 0.638298 4.29821 0.638298H15.7018C16.2586 0.638298 16.8426 1.09477 16.9771 1.63506L18.2901 6.90953C18.2984 6.94281 18.312 6.97455 18.3304 7.00353L19.1833 8.34643C19.2766 8.49345 19.3617 8.78596 19.3617 8.96009V13.2638H14.607L13.8362 11.335C13.7877 11.2137 13.6704 11.1343 13.5398 11.1343H6.46017C6.32962 11.1343 6.21226 11.2137 6.16383 11.335L5.39298 13.2638H0.638298V8.96009ZM13.9197 13.2638H6.08034L6.67634 11.7726H13.3237L13.9197 13.2638Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M1.59552 11.6661H2.79637C3.74773 11.6661 4.52177 10.8921 4.52177 9.94074C4.52177 8.98937 3.74777 8.21533 2.79637 8.21533H1.83122C1.65496 8.21533 1.51207 8.35823 1.51207 8.53448C1.51207 8.71074 1.65496 8.85363 1.83122 8.85363H2.79637C3.39577 8.85363 3.88347 9.34129 3.88347 9.94074C3.88347 10.5402 3.39581 11.0278 2.79637 11.0278H1.59552C1.41926 11.0278 1.27637 11.1707 1.27637 11.347C1.27637 11.5232 1.41926 11.6661 1.59552 11.6661Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M15.478 9.94074C15.478 10.8921 16.252 11.6661 17.2034 11.6661H18.4043C18.5805 11.6661 18.7234 11.5232 18.7234 11.347C18.7234 11.1707 18.5805 11.0278 18.4043 11.0278H17.2034C16.604 11.0278 16.1163 10.5402 16.1163 9.94074C16.1163 9.34133 16.604 8.85363 17.2034 8.85363H18.1686C18.3449 8.85363 18.4878 8.71074 18.4878 8.53448C18.4878 8.35823 18.3449 8.21533 18.1686 8.21533H17.2034C16.252 8.21533 15.478 8.98933 15.478 9.94074Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="tp-fea-ads-2-content">
+                           <div class="tp-fea-ads-2-meta">
+                              <span>Paris</span>
+                              <span>1 days ago</span>
+                           </div>
+                           <h4 class="tp-fea-ads-2-title"><a href="listing-details-1.html">Aston martin leather sofa like
+                                 brand new condition</a></h4>
+                           <div class="tp-fea-ads-2-price-box d-flex align-items-center justify-content-between">
+                              <div class="tp-fea-ads-2-price">
+                                 <span>$499</span>
+                              </div>
+                              <div class="tp-fea-ads-2-price-icon">
+                                 <a href="#"><i class="fa-light fa-bookmark"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+                     <div class="tp-fea-ads-item item-style-3">
+                        <div class="tp-fea-ads-thumb-box p-relative">
+                           <div class="tp-fea-ads-thumb">
+                              <a href="listing-details-1.html"><img src="assets/img/fea-ads/ads-1-3.png" alt=""></a>
+                           </div>
+                           <div class="tp-fea-ads-2-icon">
+                              <span>
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M15.4142 5.46047C15.3292 5.32274 15.1488 5.27994 15.0111 5.36481C14.8734 5.44969 14.8306 5.63018 14.9155 5.7679C15.4224 6.59032 15.7119 7.52691 15.7617 8.49271H14.2993C14.1632 7.918 13.6446 7.48824 13.0302 7.48824C12.4158 7.48824 11.897 7.918 11.7609 8.49271H10.29V6.77022C10.29 6.60844 10.1588 6.47728 9.99703 6.47728C9.60109 6.47728 9.27901 6.15516 9.27901 5.75927C9.27901 5.36337 9.60109 5.04125 9.99703 5.04125C10.1588 5.04125 10.29 4.91009 10.29 4.74831V3.02633C11.7673 3.09913 13.1345 3.72189 14.1663 4.79858C14.3032 4.91591 14.4413 4.91884 14.5805 4.8074C14.6973 4.69546 14.7013 4.51001 14.5894 4.39323C13.379 3.13026 11.7497 2.43436 10.001 2.4333C9.99968 2.4333 9.99839 2.43311 9.99703 2.43311C9.9957 2.43311 9.99445 2.4333 9.99312 2.4333C8.44776 2.43424 6.96002 2.99243 5.80361 4.0053C5.6819 4.11189 5.66964 4.29699 5.77627 4.41865C5.88286 4.5404 6.06796 4.55263 6.18963 4.44603C7.16691 3.59002 8.40527 3.09206 9.70409 3.02676V4.48857C9.1257 4.62188 8.69313 5.14104 8.69313 5.7593C8.69313 6.37756 9.1257 6.89673 9.70409 7.03004V8.49279H7.97508C7.81326 8.49279 7.68214 8.62395 7.68214 8.78573V8.79256C7.68214 9.1885 7.3599 9.51058 6.96377 9.51058C6.56783 9.51058 6.24575 9.18846 6.24575 8.79256V8.78573C6.24575 8.62395 6.11463 8.49279 5.95281 8.49279H4.23154C4.2893 7.34489 4.67782 6.26011 5.36432 5.33942C5.46102 5.20971 5.43427 5.02617 5.30459 4.92946C5.17496 4.83279 4.99134 4.85951 4.89463 4.98918C4.07401 6.0897 3.63944 7.40246 3.63784 8.78581C3.57929 11.2019 5.1211 13.5201 7.27803 14.5422C7.5234 14.6585 7.68198 14.9113 7.68198 15.1864V15.7703C7.08059 15.7703 6.67071 16.0924 6.67071 16.6698C6.67071 17.2467 7.06755 17.5698 7.68198 17.5693V18.9024C7.68198 19.4823 8.20228 19.9999 8.77953 19.9999H11.2144C11.7917 19.9999 12.312 19.4825 12.312 18.9024V17.5693C12.998 17.5699 13.3235 17.2053 13.3233 16.6698C13.323 16.1115 12.972 15.7703 12.312 15.7703V15.1864C12.312 14.9113 12.4715 14.658 12.7184 14.541C14.9373 13.4887 16.3168 11.2251 16.3561 8.78553C16.355 7.60795 16.0292 6.45818 15.4142 5.46047ZM7.52891 14.0126C5.60761 13.1023 4.33774 11.1868 4.23177 9.07855H5.69147C5.82224 9.66037 6.34305 10.0963 6.96373 10.0963C7.58461 10.0963 8.10553 9.66037 8.23634 9.07855H9.70401V10.8144C9.70401 10.9761 9.83513 11.1073 9.99695 11.1073C10.3929 11.1073 10.715 11.4294 10.715 11.8253C10.715 12.2212 10.3929 12.5433 9.99695 12.5433C9.83513 12.5433 9.70401 12.6745 9.70401 12.8363V15.7701H8.26782V15.1862C8.26786 14.686 7.97781 14.2254 7.52891 14.0126ZM11.2144 19.414H8.77953C8.40722 19.414 8.24954 19.0826 8.26786 18.789H11.7261C11.7267 19.1015 11.6277 19.414 11.2144 19.414ZM12.4233 16.9834H10.6126C10.4507 16.9834 10.3196 17.1145 10.3196 17.2763C10.3196 17.277 10.3197 17.2776 10.3197 17.2783C10.3197 17.2789 10.3196 17.2795 10.3196 17.2802C10.3196 17.442 10.4507 17.5731 10.6126 17.5731H11.7261V18.2031H8.2679V17.5731H9.33615C9.49797 17.5731 9.62909 17.442 9.62909 17.2802C9.62909 17.2795 9.62901 17.2789 9.62901 17.2783C9.62901 17.2776 9.62909 17.277 9.62909 17.2763C9.62909 17.1145 9.49797 16.9834 9.33615 16.9834H7.5707C7.10668 16.9904 7.09368 16.3561 7.5707 16.3561H12.4234C12.8287 16.3561 12.8873 16.9839 12.4233 16.9834ZM12.4674 14.0115C12.0171 14.2248 11.7261 14.686 11.7261 15.1863V15.7702H10.2899V13.0961C10.8683 12.9628 11.3008 12.4436 11.3008 11.8254C11.3008 11.2071 10.8683 10.6879 10.2899 10.5546V9.07855H12.0189C12.1799 9.07855 12.3108 8.94852 12.3118 8.78749C12.3143 8.39412 12.6366 8.07408 13.0302 8.07408C13.4236 8.07408 13.7457 8.39412 13.7483 8.78749C13.7493 8.94852 13.8802 9.07855 14.0412 9.07855H15.7622C15.6561 11.1861 14.3871 13.1011 12.4674 14.0115Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M9.99704 1.79916C9.83522 1.79916 9.7041 1.668 9.7041 1.50622V0.29294C9.7041 0.131159 9.83522 0 9.99704 0C10.1589 0 10.29 0.131159 10.29 0.29294V1.50622C10.29 1.668 10.1589 1.79916 9.99704 1.79916Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M14.0958 2.89747C13.9553 2.81728 13.9077 2.63742 13.9886 2.49731L14.5952 1.44659C14.6761 1.30649 14.8552 1.25841 14.9954 1.33938C15.1355 1.42027 15.1835 1.59943 15.1026 1.73953L14.496 2.79025C14.4418 2.88419 14.2543 2.98793 14.0958 2.89747Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M17.0964 5.89801C17.0155 5.7579 17.0635 5.57874 17.2036 5.49785L18.2543 4.89123C18.3943 4.81034 18.5736 4.85831 18.6545 4.99845C18.7354 5.13855 18.6874 5.31771 18.5473 5.3986L17.4966 6.00522C17.3302 6.10283 17.1506 5.99202 17.0964 5.89801Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M1.33941 14.9953C1.26442 14.852 1.30652 14.676 1.44662 14.5951L2.4973 13.9885C2.63733 13.9076 2.81653 13.9556 2.89746 14.0957C2.97835 14.2358 2.93035 14.415 2.79024 14.4959L1.73956 15.1025C1.57009 15.1936 1.41385 15.1376 1.33941 14.9953Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M5.49797 2.79024L4.89135 1.73953C4.81045 1.59942 4.85846 1.42026 4.99856 1.33937C5.13859 1.25844 5.31783 1.30644 5.39872 1.44659L6.00534 2.4973C6.08623 2.63741 6.03483 2.81098 5.89812 2.89746C5.73966 2.99768 5.55222 2.88422 5.49797 2.79024Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M2.49748 6.00524L1.4468 5.39862C1.3067 5.31773 1.2587 5.13857 1.33959 4.99847C1.42044 4.85832 1.59952 4.81032 1.73974 4.89125L2.79042 5.49787C2.93053 5.57876 2.99946 5.7723 2.89764 5.89803C2.77132 6.05399 2.64438 6.07352 2.49748 6.00524Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M18.2543 15.1028L17.2036 14.4961C17.0635 14.4152 17.0155 14.2361 17.0964 14.096C17.1773 13.9558 17.3565 13.9079 17.4966 13.9888L18.5473 14.5954C18.6874 14.6763 18.7418 14.8593 18.6545 14.9955C18.5605 15.1421 18.4238 15.2036 18.2543 15.1028Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M1.50618 10.29H0.29294C0.13112 10.29 0 10.1588 0 9.99704C0 9.83526 0.13112 9.7041 0.29294 9.7041H1.50622C1.66804 9.7041 1.79916 9.83526 1.79916 9.99704C1.79916 10.1588 1.668 10.29 1.50618 10.29Z"
+                                       fill="currentcolor" />
+                                    <path
+                                       d="M19.701 10.29H18.4878C18.3259 10.29 18.1948 10.1588 18.1948 9.99704C18.1948 9.83526 18.3259 9.7041 18.4878 9.7041H19.701C19.8629 9.7041 19.994 9.83526 19.994 9.99704C19.994 10.1588 19.8629 10.29 19.701 10.29Z"
+                                       fill="currentcolor" />
+                                 </svg>
+
+                              </span>
+                           </div>
+                        </div>
+                        <div class="tp-fea-ads-2-content">
+                           <div class="tp-fea-ads-2-meta">
+                              <span>Paris</span>
+                              <span>1 days ago</span>
+                           </div>
+                           <h4 class="tp-fea-ads-2-title"><a href="listing-details-1.html">Phonix black wood classical
+                                 bycycle (Urgent Sale)</a></h4>
+                           <div class="tp-fea-ads-2-price-box d-flex align-items-center justify-content-between">
+                              <div class="tp-fea-ads-2-price">
+                                 <span>$499</span>
+                              </div>
+                              <div class="tp-fea-ads-2-price-icon">
+                                 <a href="#"><i class="fa-light fa-bookmark"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                     <div class="tp-fea-ads-item item-style-4">
+                        <div class="tp-fea-ads-thumb-box p-relative">
+                           <div class="tp-fea-ads-thumb">
+                             <a href="#"> <img src="assets/img/fea-ads/ads-1-4.png" alt=""></a>
+                           </div>
+                           <div class="tp-fea-ads-2-icon">
+                              <span>
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M19.371 8.0964C18.8737 7.59906 18.1766 7.37825 17.4796 7.4987C17.5997 6.80398 17.3811 6.10638 16.8819 5.60728C16.3681 5.09346 15.6569 4.89503 14.9901 5.01087C15.245 3.54061 13.9735 2.26531 12.5002 2.52058C12.6159 1.85388 12.4174 1.14268 11.9035 0.628892C11.0649 -0.209592 9.70048 -0.20967 8.86192 0.628892C8.78386 0.706989 9.14563 0.0733806 3.4553 10.7373C3.39372 10.7989 1.21407 12.9786 1.20082 12.9918C-0.400274 14.5929 -0.400274 17.1981 1.20082 18.7992C2.80188 20.4002 5.40707 20.4003 7.0082 18.7992C7.42585 18.3816 8.82953 16.9779 9.26276 16.5447C19.9318 10.8515 19.293 11.216 19.371 11.1381C20.2116 10.2975 20.2117 8.93703 19.371 8.0964ZM16.3294 6.15975C16.8568 6.68721 16.8652 7.53812 16.3499 8.07534C16.0157 8.31675 8.10028 14.0335 7.68565 14.333L6.95253 13.5999L14.3926 6.15971C14.9267 5.62576 15.7954 5.6258 16.3294 6.15975ZM13.8401 3.67055C14.3753 4.20575 14.3754 5.07197 13.8401 5.60721L6.40003 13.0474L5.66699 12.3143L11.9246 3.64992C12.4608 3.13575 13.3116 3.142 13.8401 3.67055ZM9.45384 1.14346C9.99033 0.647684 10.8301 0.66042 11.351 1.18132C11.8849 1.71526 11.8849 2.58406 11.351 3.11801C11.3092 3.15989 11.5913 2.77972 5.10745 11.7546L4.25354 10.9008L9.45384 1.14346ZM6.4557 18.2467C5.15949 19.5429 3.04996 19.5433 1.75337 18.2467C0.456884 16.9502 0.456884 14.8407 1.75337 13.5443L2.52805 12.7696L7.23043 17.4719L6.4557 18.2467ZM7.78293 16.9194L3.08055 12.217L3.76999 11.5275L8.47241 16.2299L7.78293 16.9194ZM18.8564 10.5461L9.09914 15.7465L8.24534 14.8927C17.2425 8.39242 16.8396 8.69114 16.8819 8.64894C17.4171 8.11379 18.2832 8.11355 18.8185 8.64891C19.3445 9.17488 19.3496 10.013 18.8564 10.5461Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="tp-fea-ads-2-content">
+                           <div class="tp-fea-ads-2-meta">
+                              <span>Paris</span>
+                              <span>1 days ago</span>
+                           </div>
+                           <h4 class="tp-fea-ads-2-title"><a href="listing-details-1.html">Apple macbook pro 15.6 inch
+                                 monitor laptop</a></h4>
+                           <div class="tp-fea-ads-2-price-box d-flex align-items-center justify-content-between">
+                              <div class="tp-fea-ads-2-price">
+                                 <span>$499</span>
+                              </div>
+                              <div class="tp-fea-ads-2-price-icon">
+                                 <a href="#"><i class="fa-light fa-bookmark"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row justify-content-center mt-20">
+                  <div class="col-xl-4">
+                     <div class="tp-fea-ads-button text-center">
+                        <a class="tp-btn-border" href="listing-grid.html">
+                           <span>
+                              More Items
+                              <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- feature-ads area end -->
+
+      <!-- choose area start -->
+      <div class="tp-choose-area tp-choose-bg pb-120">
+         <div class="tp-choose-big-text d-none d-lg-block">
+            <span>CHOOSE</span>
+         </div>
+         <div class="container">
+            <div class="row align-items-end">
+               <div class="col-xl-5 col-lg-5 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
+                  <div class="tp-choose-left">
+                     <div class="tp-title-box pb-30">
+                        <h4 class="tp-section-title-2">Why choose
+                           <span class="p-relative">
+                              us
+                              <span class="tp-section-title-shape">
+                                 <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.2132 42.7799L35.7089 36.0624" stroke="#F50963" stroke-width="2"
+                                       stroke-linecap="round" />
+                                    <path d="M3.53575 25.1023L11.6675 9.89954" stroke="#F50963" stroke-width="2"
+                                       stroke-linecap="round" />
+                                    <path d="M12.7282 34.2947L33.5879 12.0209" stroke="#F50963" stroke-width="2"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </span>
+                        </h4>
+                     </div>
+                     <div class="tp-choose-text pb-30">
+                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                           model text. Many desktop publishing packages and web page editors now...</p>
+                     </div>
+                     <div class="tp-choose-content mb-20">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-6 col-md-5">
+                              <div class="tp-choose-text text-pr">
+                                 <span>Get unlimited listing
+                                    & inspire. Level up your
+                                    design hustle.</span>
+                              </div>
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-5">
+                              <div class="tp-choose-text text-pl">
+                                 <span>24/7 our support engineer
+                                    ready to help you out.</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-choose-link">
+                        <a href="contact.html">Get Started Now</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-7">
+                  <div class="tp-choose-thumb-box p-relative text-end">
+                     <div class="tp-choose-thumb">
+                        <img src="assets/img/choose/thumb-1.jpg" alt="">
+                     </div>
+                     <div class="tp-choose-play-icon">
+                        <a class="popup-video" href="https://www.youtube.com/watch?v=PO_fBTkoznc"><i class="fa-solid fa-play"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- choose area end -->
+
+      <!-- city area start -->
+      <div class="tp-city-area black-bg p-relative z-index fix pt-110 pb-115">
+         <div class="tp-city-shape-1">
+            <img src="assets/img/shape/city/shape-1-1.png" alt="">
+         </div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-city-title-box text-center pb-50">
+                     <h4 class="tp-section-title-2 text-white pb-10">Search ads by
+                        <span class="p-relative">
+                           city
+                           <span class="tp-section-title-shape">
+                              <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M21.2132 42.7799L35.7089 36.0624" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                                 <path d="M3.53575 25.1023L11.6675 9.89954" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                                 <path d="M12.7282 34.2947L33.5879 12.0209" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                              </svg>
+                           </span>
+                        </span>
+                     </h4>
+                     <p><span>Listbnb </span> is a platform on which you can buy and sell almost everything!</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-city-slider-wrap">
+                     <div class="swiper-container tp-city-active">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="tp-city-item p-relative">
+                                 <div class="tp-city-thumb">
+                                    <img src="assets/img/city/city-1-1.jpg" alt="">
+                                 </div>
+                                 <div class="tp-city-icon">
+                                    <img src="assets/img/city/map-1-1.png" alt="">
+                                 </div>
+                                 <div class="tp-city-thumb-content">
+                                    <span>3200 Ads</span>
+                                    <h4 class="tp-city-title"><a href="listing-list.html">Barcelona, Spain</a></h4>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-city-item p-relative">
+                                 <div class="tp-city-thumb">
+                                    <img src="assets/img/city/city-1-2.jpg" alt="">
+                                 </div>
+                                 <div class="tp-city-icon">
+                                    <img src="assets/img/city/map-1-2.png" alt="">
+                                 </div>
+                                 <div class="tp-city-thumb-content">
+                                    <span>3200 Ads</span>
+                                    <h4 class="tp-city-title"><a href="listing-list.html">New York, US</a></h4>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-city-item p-relative">
+                                 <div class="tp-city-thumb">
+                                    <img src="assets/img/city/city-1-3.jpg" alt="">
+                                 </div>
+                                 <div class="tp-city-icon">
+                                    <img src="assets/img/city/map-1-3.png" alt="">
+                                 </div>
+                                 <div class="tp-city-thumb-content">
+                                    <span>3200 Ads</span>
+                                    <h4 class="tp-city-title"><a href="listing-list.html">Sylhet, BD</a></h4>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-city-item p-relative">
+                                 <div class="tp-city-thumb">
+                                    <img src="assets/img/city/city-1-4.jpg" alt="">
+                                 </div>
+                                 <div class="tp-city-icon">
+                                    <img src="assets/img/city/map-1-4.png" alt="">
+                                 </div>
+                                 <div class="tp-city-thumb-content">
+                                    <span>3200 Ads</span>
+                                    <h4 class="tp-city-title"><a href="listing-list.html">Rome, Italy</a></h4>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-city-item p-relative">
+                                 <div class="tp-city-thumb">
+                                    <img src="assets/img/city/city-1-5.jpg" alt="">
+                                 </div>
+                                 <div class="tp-city-icon">
+                                    <img src="assets/img/city/map-1-5.png" alt="">
+                                 </div>
+                                 <div class="tp-city-thumb-content">
+                                    <span>3200 Ads</span>
+                                    <h4 class="tp-city-title"><a href="listing-list.html">Berlin, Germany</a></h4>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-city-item p-relative">
+                                 <div class="tp-city-thumb">
+                                    <img src="assets/img/city/city-1-6.jpg" alt="">
+                                 </div>
+                                 <div class="tp-city-icon">
+                                    <img src="assets/img/city/map-1-6.png" alt="">
+                                 </div>
+                                 <div class="tp-city-thumb-content">
+                                    <span>3200 Ads</span>
+                                    <h4 class="tp-city-title"><a href="listing-list.html">Hanoi, Vietnam</a></h4>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tp-city-dots text-center"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- city area end -->
+
+      <!-- testimonial area start -->
+      <div class="tp-testimonial-3-area tp-testimonial-3-bg pt-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="row">
+                     <div class="col-xl-5 col-lg-5">
+                        <div class="tp-testimonial-3-left">
+                           <div class="tp-testimonial-3-title-box pb-30">
+                              <h4 class="tp-section-title-2 pb-25">Our client 
+                                 <span class="p-relative">
+                                    says
+                                    <span class="tp-section-title-shape-2">
+                                       <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M21.2132 42.7799L35.7089 36.0624" stroke="#F50963" stroke-width="2"
+                                             stroke-linecap="round" />
+                                          <path d="M3.53575 25.1023L11.6675 9.89954" stroke="#F50963" stroke-width="2"
+                                             stroke-linecap="round" />
+                                          <path d="M12.7282 34.2947L33.5879 12.0209" stroke="#F50963" stroke-width="2"
+                                             stroke-linecap="round" />
+                                       </svg>
+                                    </span>
+                                 </span>
+                              </h4>
+                              <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. Many desktop publishing packages and web page editors now...</p>
+                           </div>
+                           <div class="tp-testimonial-3-button-box d-flex align-items-center mb-100">
+                              <div class="tp-testimonial-3-button">
+                                 <a href="listing-ads.html" class="tp-btn-border">
+                                    <span>
+                                       List Your Ads
+                                       <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                                    </span>
+                                 </a>
+                              </div>
+                              <div class="tp-testimonial-3-ratting">
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <span>Trusted by <i>1M+</i> users</span>
+                              </div>
+                           </div>
+                           <div class="tp-testimonial-3-thumb">
+                              <img src="assets/img/testimonial/author3-1.jpg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-7 col-lg-7">
+                        <div class="tp-testimonial-3-wrap">
+                           <div class="tp-testimonial-item p-relative d-flex align-items-end">
+                              <div class="tp-testimonial-avata-box p-relative">
+                                 <div class="tp-testimonial-avata">
+                                    <img src="assets/img/avata/avata-2-2.png" alt="">
+                                 </div>
+                                 <div class="tp-testimonial-quote">
+                                    <span>
+                                       <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M9.82812 14V9.54307C9.82812 6.99126 10.4302 4.89388 11.6344 3.25093C12.874 1.57303 14.6625 0.489388 17 0V2.8839C15.8667 3.16355 14.9813 3.68789 14.3438 4.45693C13.7063 5.19101 13.3167 6.09988 13.175 7.18352H15.9375V14H9.82812ZM0 14V9.54307C0 6.99126 0.602083 4.89388 1.80625 3.25093C3.04583 1.57303 4.83437 0.489388 7.17187 0V2.8839C6.03854 3.16355 5.15313 3.68789 4.51562 4.45693C3.87812 5.19101 3.48854 6.09988 3.34687 7.18352H6.10938V14H0Z" fill="currentcolor"/>
+                                        </svg>
+                                    </span>
+                                 </div>
+                              </div>
+                              <div class="tp-testimonial-content">
+                                 <div class="tp-testimonial-border">
+                                    <span></span>
+                                 </div>
+                                 <div class="tp-testimonial-rate pb-15">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                 </div>
+                                 <div class="tp-testimonial-text pb-10">
+                                    <p>“ Listbnb is a hidden gem for sell, buy tech
+                                       enthusiasts. They offer an array of unique
+                                       and niche gadgets. ”</p>
+                                 </div>
+                                 <div class="tp-testimonial-author-info">
+                                    <span>Alonso D. Dowson</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tp-testimonial-item p-relative d-flex align-items-end">                           
+                              <div class="tp-testimonial-content">
+                                 <div class="tp-testimonial-border border-right">
+                                    <span></span>
+                                 </div>
+                                 <div class="tp-testimonial-rate pb-15">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                 </div>
+                                 <div class="tp-testimonial-text pb-10">
+                                    <p>“ Listbnb is a hidden gem for sell, buy tech
+                                       enthusiasts. They offer an array of unique
+                                       and niche gadgets. ”</p>
+                                 </div>
+                                 <div class="tp-testimonial-author-info">
+                                    <span>Rosalina D. William</span>
+                                 </div>
+                              </div>
+                              <div class="tp-testimonial-avata-box p-relative">
+                                 <div class="tp-testimonial-avata">
+                                    <img src="assets/img/avata/avata-2-3.png" alt="">
+                                 </div>
+                                 <div class="tp-testimonial-quote">
+                                    <span>
+                                       <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M9.82812 14V9.54307C9.82812 6.99126 10.4302 4.89388 11.6344 3.25093C12.874 1.57303 14.6625 0.489388 17 0V2.8839C15.8667 3.16355 14.9813 3.68789 14.3438 4.45693C13.7063 5.19101 13.3167 6.09988 13.175 7.18352H15.9375V14H9.82812ZM0 14V9.54307C0 6.99126 0.602083 4.89388 1.80625 3.25093C3.04583 1.57303 4.83437 0.489388 7.17187 0V2.8839C6.03854 3.16355 5.15313 3.68789 4.51562 4.45693C3.87812 5.19101 3.48854 6.09988 3.34687 7.18352H6.10938V14H0Z" fill="currentcolor"/>
+                                        </svg>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tp-testimonial-item p-relative d-flex align-items-end">
+                              <div class="tp-testimonial-avata-box p-relative">
+                                 <div class="tp-testimonial-avata">
+                                    <img src="assets/img/avata/avata-2-4.png" alt="">
+                                 </div>
+                                 <div class="tp-testimonial-quote">
+                                    <span>
+                                       <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M9.82812 14V9.54307C9.82812 6.99126 10.4302 4.89388 11.6344 3.25093C12.874 1.57303 14.6625 0.489388 17 0V2.8839C15.8667 3.16355 14.9813 3.68789 14.3438 4.45693C13.7063 5.19101 13.3167 6.09988 13.175 7.18352H15.9375V14H9.82812ZM0 14V9.54307C0 6.99126 0.602083 4.89388 1.80625 3.25093C3.04583 1.57303 4.83437 0.489388 7.17187 0V2.8839C6.03854 3.16355 5.15313 3.68789 4.51562 4.45693C3.87812 5.19101 3.48854 6.09988 3.34687 7.18352H6.10938V14H0Z" fill="currentcolor"/>
+                                        </svg>
+                                    </span>
+                                 </div>
+                              </div>
+                              <div class="tp-testimonial-content">
+                                 <div class="tp-testimonial-border">
+                                    <span></span>
+                                 </div>
+                                 <div class="tp-testimonial-rate pb-15">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                 </div>
+                                 <div class="tp-testimonial-text pb-10">
+                                    <p>“ Listbnb is a hidden gem for sell, buy tech
+                                       enthusiasts. They offer an array of unique
+                                       and niche gadgets. ”</p>
+                                 </div>
+                                 <div class="tp-testimonial-author-info">
+                                    <span>Miranda H. Halim</span>
+                                 </div>
+                              </div>
+                           </div>                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- testimonial area end -->
+
+      <!-- brand area start -->
+      <div class="tp-brand-area grey-bg pt-135 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-brand-slider-box">
+                     <div class="swiper-container tp-brand-active">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="tp-brand-2-item text-center">
+                                 <img src="assets/img/brand/brand-2-1.png" alt="">
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-brand-2-item text-center">
+                                 <img src="assets/img/brand/brand-2-2.png" alt="">
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-brand-2-item text-center">
+                                 <img src="assets/img/brand/brand-2-3.png" alt="">
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-brand-2-item text-center">
+                                 <img src="assets/img/brand/brand-2-4.png" alt="">
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-brand-2-item text-center">
+                                 <img src="assets/img/brand/brand-2-5.png" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>           
+            </div>
+         </div>
+      </div>
+      <!-- brand area end -->
+
+      <!-- price area start -->
+      <div class="tp-price-area pt-110 pb-90 fix">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-price-title-box text-center pb-45">
+                     <h4 class="tp-section-title-2 pb-10">Find your
+                        <span class="p-relative">
+                           plan
+                           <span class="tp-section-title-shape-2">
+                              <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M21.2132 42.7799L35.7089 36.0624" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                                 <path d="M3.53575 25.1023L11.6675 9.89954" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                                 <path d="M12.7282 34.2947L33.5879 12.0209" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                              </svg>
+                           </span>
+                        </span>
+                     </h4>
+                     <p><span>Listbnb </span> is a platform on which you can buy and sell almost everything!</p>
+                  </div>
+               </div>
+               <div class="col-xl-12">
+                  <div class="tp-price-top-plan mb-40" data-background="assets/img/shape/price/price-bg.png">
+                     <div class="row align-items-center">
+                        <div class="col-xl-8 col-lg-6 col-md-6">
+                           <div class="tp-price-top-left d-flex align-items-center">
+                              <div class="tp-price-top-icon">
+                                 <span>
+                                    <svg width="29" height="21" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M28.6025 4.23598C28.2599 3.94355 27.7765 3.88192 27.3713 4.07914L21.1723 7.09696L15.3558 0.390594C15.1407 0.142508 14.8284 0 14.5 0C14.1716 0 13.8594 0.142508 13.6442 0.390594L7.82769 7.0969L1.62871 4.07909C1.22356 3.88192 0.740192 3.94349 0.397516 4.23593C0.0548406 4.52836 -0.0820032 4.9961 0.0490066 5.42713L4.35369 19.5873C4.49875 20.0645 4.93879 20.3906 5.43751 20.3906H23.5625C24.0612 20.3906 24.5013 20.0645 24.6463 19.5873L28.951 5.42719C29.082 4.99616 28.9452 4.52842 28.6025 4.23598ZM22.7228 18.125H6.2771L2.97206 7.25295L7.61784 9.51466C8.07912 9.73919 8.6334 9.62579 8.96945 9.23837L14.5 2.86177L20.0306 9.23837C20.3666 9.62585 20.9211 9.73913 21.3822 9.51466L26.028 7.25295L22.7228 18.125Z" fill="currentcolor"/>
+                                    </svg>
+                                 </span>
+                              </div>
+                              <div class="tp-price-top-text">
+                                 <h6>Free Plan</h6>
+                                 <span>Up to 1 ads, No support, No edit option</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                           <div class="tp-price-button text-md-end">
+                              <a class="tp-btn-border text-center" href="price.html">
+                                 <span>
+                                    Subscribe Now
+                                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                                 </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row gx-45">
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                  <div class="tp-price-item text-center">
+                     <div class="tp-price-top mb-15">
+                        <h5 class="tp-price-number"><i>$</i>49</h5>
+                        <span>standard Plan</span>
+                     </div>
+                     <div class="tp-price-list mb-15">
+                        <ul>
+                           <li>10 Ads Listings
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li>Featured For 1 Day
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li>24/7 Online Support
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li>Limited Edit Option
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li>Limited Upload Option
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="tp-price-button">
+                        <a class="tp-btn-border w-100 text-center" href="price.html">
+                           <span>
+                              Subscribe Now
+                              <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                  <div class="tp-price-item text-center active">
+                     <div class="tp-price-top mb-15">
+                        <h5 class="tp-price-number"><i>$</i>199</h5>
+                        <span>standard Plan</span>
+                     </div>
+                     <div class="tp-price-list mb-15">
+                        <ul>
+                           <li>30 Ads Listings
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li>Featured For 1 Day
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li class="active">24/7 Online Support
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li class="active">Limited Edit Option
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li>Limited Upload Option
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="tp-price-button">
+                        <a class="tp-btn-border w-100 text-center" href="price.html">
+                           <span>
+                              Subscribe Now
+                              <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+                  <div class="tp-price-item text-center border-theme">
+                     <div class="tp-price-badge">
+                        <span>recomanded</span>
+                     </div>
+                     <div class="tp-price-top mb-15">
+                        <h5 class="tp-price-number"><i>$</i>499</h5>
+                        <span>standard Plan</span>
+                     </div>
+                     <div class="tp-price-list mb-15">
+                        <ul>
+                           <li>18 Ads Listings
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li>Featured For 1 Day
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li class="active">24/7 Online Support
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li class="active">Limited Edit Option
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                           <li class="active">Limited Upload Option
+                              <i>
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.7695 0.484375C14.9453 0.34375 15.1914 0.34375 15.3672 0.484375L15.7539 0.90625C15.9297 1.04688 15.9297 1.32812 15.7539 1.50391L5.20703 12.0508C5.06641 12.1914 4.78516 12.1914 4.64453 12.0508L0.460938 7.86719C0.285156 7.69141 0.285156 7.41016 0.460938 7.26953L0.847656 6.84766C1.02344 6.70703 1.26953 6.70703 1.44531 6.84766L4.92578 10.3281L14.7695 0.484375Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </i>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="tp-price-button">
+                        <a class="tp-btn-border w-100 text-center" href="price.html">
+                           <span>
+                              Subscribe Now
+                              <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- price area end -->
+
+      <!-- blog area start -->
+      <div class="tp-blog-2-area  tp-blog-2-overlay tp-blog-style-2 z-index p-relative fix pt-110 pb-90" data-background="assets/img/blog/bg.jpg">       
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-blog-2-title-box text-center pb-65">
+                     <h4 class="tp-section-title-2 text-white pb-10">News &
+                        <span class="p-relative">
+                           insights
+                           <span class="tp-section-title-shape-3">
+                              <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M21.2132 42.7799L35.7089 36.0624" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                                 <path d="M3.53575 25.1023L11.6675 9.89954" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                                 <path d="M12.7282 34.2947L33.5879 12.0209" stroke="#F50963" stroke-width="2"
+                                    stroke-linecap="round" />
+                              </svg>
+                           </span>
+                        </span>
+                     </h4>
+                     <p>Listbnb is a platform on which you can buy and sell almost everything!</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                  <div class="tp-blog-2-item">
+                     <div class="tp-blog-2-thumb-box p-relative mb-30">
+                        <div class="tp-blog-2-thumb">
+                           <a href="blog-details.html"><img src="assets/img/blog/thumb-2-1.jpg" alt=""></a>
+                        </div>
+                        <div class="tp-blog-2-date-wrap">
+                           <div class="tp-blog-2-date">
+                              <i>28</i>
+                              <span>Mar</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-blog-2-content">
+                        <div class="tp-blog-meta">
+                           <span class="color">By <i>Alson D.</i></span>
+                           <span><i class="fa-light fa-bookmark"></i> Product, Market</span>
+                        </div>
+                        <h4 class="tp-blog-2-title  mb-35"><a class="text-anim-3" href="blog-details.html">Feedback based on your actual use
+                              and observations.</a></h4>
+                        <div class="tp-blog-2-link">
+                           <a href="blog-details.html">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                  <div class="tp-blog-2-item">
+                     <div class="tp-blog-2-thumb-box p-relative mb-30">
+                        <div class="tp-blog-2-thumb">
+                           <a href="blog-details.html"><img src="assets/img/blog/thumb-2-2.jpg" alt=""></a>
+                        </div>
+                        <div class="tp-blog-2-date-wrap">
+                           <div class="tp-blog-2-date">
+                              <i>20</i>
+                              <span>Mar</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-blog-2-content">
+                        <div class="tp-blog-meta">
+                           <span class="color">By <i>Alson D.</i></span>
+                           <span><i class="fa-light fa-bookmark"></i> Product, Market</span>
+                        </div>
+                        <h4 class="tp-blog-2-title  mb-35"><a class="text-anim-3" href="blog-details.html">The website is well-organized, &
+                              making it easy to discover...</a></h4>
+                        <div class="tp-blog-2-link">
+                           <a href="blog-details.html">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+                  <div class="tp-blog-2-item">
+                     <div class="tp-blog-2-thumb-box p-relative mb-30">
+                        <div class="tp-blog-2-thumb">
+                           <a href="blog-details.html"><img src="assets/img/blog/thumb-2-3.jpg" alt=""></a>
+                        </div>
+                        <div class="tp-blog-2-date-wrap">
+                           <div class="tp-blog-2-date">
+                              <i>10</i>
+                              <span>Dec</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-blog-2-content">
+                        <div class="tp-blog-meta">
+                           <span class="color">By <i>Alson D.</i></span>
+                           <span><i class="fa-light fa-bookmark"></i> Product, Market</span>
+                        </div>
+                        <h4 class="tp-blog-2-title  mb-35"><a class="text-anim-3" href="blog-details.html">Misleading reviews can erode
+                              trust in online reviews and harm...</a></h4>
+                        <div class="tp-blog-2-link">
+                           <a href="blog-details.html">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- blog area end -->
+
+   </main>
+
+   <footer>
+
+      <div class="tp-footer-bg" data-background="assets/img/shape/footer/bg-1-3.png">
+         <!-- footer area start -->
+         <div class="tp-footer-area tp-footer-style-2 z-index fix p-relative pt-120 pb-40">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 mb-50 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
+                     <div class="tp-footer-widget">
+                        <div class="tp-footer-right">
+                           <h4 class="tp-form-title pb-30">Essential</h4>
+                           <div class="tp-footer-list pb-60">
+                              <ul>
+                                 <li><a href="#">Company & Contact Info</a></li>
+                                 <li><a href="#">Blog & Articles</a></li>
+                                 <li><a href="#">Sitemap</a></li>
+                                 <li><a href="#">Terms of Service</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Live Chat</a></li>
+                                 <li><a href="#">FAQ Page</a></li>
+                                 <li><a href="#">How to Stay Safe</a></li>
+                                 <li><a href="#">Terms & Conditions</a></li>
+                                 <li><a href="#">Contact Us</a></li>
+                              </ul>
+                           </div>
+                           <div class="tp-footer-content tp-footer-content-border">
+                              <p><i>Listbnb</i> a Largest Classified Listing Marketplace offers perfect WordPress Ads
+                                 classified Themes to build your own classified websites.</p>
+                              <a href="contact-2.html"><i class="fal fa-arrow-right-long"></i> Get It Now</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 mb-50 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
+                     <div class="tp-footer-widget">
+                        <div class="tp-footer-left text-md-center">
+                           <div class="tp-footer-logo mb-25">
+                              <a href="index.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                           </div>
+                           <div class="tp-footer-content pb-10">
+                              <p><i>Listbnb</i> a Largest Classified Listing Marketplace
+                                 offers perfect WordPress Ads classified Themes to build your own classified websites.</p>
+                           </div>
+                           <div class="tp-footer-2-form-box">
+                              <form action="#">
+                                 <div class="tp-footer-2-input-box mb-20 p-relative">
+                                    <input type="text" placeholder="info@we">
+                                    <div class="tp-footer-2-input-icon">
+                                       <span>
+                                          <svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M14 13.4375C14 14.1758 13.3984 14.75 12.6875 14.75H1.3125C0.574219 14.75 0 14.1758 0 13.4375V6.24609C0 5.83594 0.191406 5.45312 0.492188 5.20703C1.17578 4.6875 1.72266 4.25 4.97656 1.89844C5.44141 1.57031 6.34375 0.75 7 0.777344C7.62891 0.75 8.53125 1.57031 8.99609 1.89844C12.25 4.25 12.7969 4.6875 13.4805 5.20703C13.7812 5.45312 14 5.83594 14 6.24609V13.4375ZM12.1953 8.07812C12.1133 7.96875 11.9766 7.94141 11.8672 8.02344C11.2656 8.48828 10.3633 9.14453 8.99609 10.1289C8.53125 10.457 7.62891 11.2773 7 11.25C6.34375 11.2773 5.44141 10.457 4.97656 10.1289C3.60938 9.14453 2.70703 8.48828 2.10547 8.02344C1.99609 7.94141 1.85938 7.96875 1.77734 8.07812L1.53125 8.43359C1.50391 8.46094 1.50391 8.51562 1.50391 8.57031C1.50391 8.625 1.53125 8.70703 1.58594 8.73438C2.21484 9.19922 3.08984 9.85547 4.45703 10.8398C5.03125 11.25 6.01562 12.1523 7 12.125C7.95703 12.1523 8.94141 11.25 9.51562 10.8398C10.8828 9.85547 11.7578 9.19922 12.3867 8.73438C12.4414 8.70703 12.4688 8.625 12.4688 8.57031C12.4688 8.51562 12.4688 8.46094 12.4414 8.43359L12.1953 8.07812Z"
+                                                fill="currentcolor" />
+                                          </svg>
+                                       </span>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="tp-footer-button mb-50">
+                              <button class="tp-btn-theme">
+                                 <span>
+                                    Subscribe Now
+                                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                                 </span>
+                              </button>
+                           </div>
+                           <div class="tp-footer-social">
+                              <span>Follow Us</span>
+                              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                              <a href="#"><i class="fa-brands fa-behance"></i></a>
+                              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- footer area end -->
+   
+         <!-- copy-right area start -->
+         <div class="tp-copyright-2-area tp-copyright-2-height">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-12">
+                     <div class="tp-copyright-2-text text-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                        <p>Copyright & Design by <a href="#">@ThemePure</a> - 2024</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- copy-right area end -->
+      </div>
+
+   </footer>
+
+   <!-- JS here -->
+   <script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/slick.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/countdown.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>

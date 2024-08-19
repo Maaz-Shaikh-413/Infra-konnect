@@ -1,4 +1,5 @@
 <?php
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -16,19 +17,23 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $entity = $_POST['entity'];
 
     // SQL query to check credentials
-    $sql = "SELECT * FROM users WHERE email = ? AND password = ?";
+    $sql = "SELECT * FROM users WHERE email = ? AND password = ? AND entity = ?";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ss", $email, $password);
+    $stmt->bind_param("sss", $email, $password, $entity);
     $stmt->execute();
     $result = $stmt->get_result();
 
     if ($result->num_rows > 0) {
         // Credentials are valid
-        session_start();
         $_SESSION['user'] = $email;
-        header("Location: index.html");
+        if ($entity == 'client') {
+            header("Location: dashboard.php");
+        } else if ($entity == 'organization') {
+            header("Location: organisation_dashboard.php");
+        }
         exit();
     } else {
         // Invalid credentials

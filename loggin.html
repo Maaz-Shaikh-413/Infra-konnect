@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div class="login-area">
+        <div class="container">
+            <div class="login-wrapper">
+                <div class="login-logo">
+                    <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                </div>
+                <h4 class="login-title">Create Your Account</h4>
+                <div class="login-option">
+                    <form action="Client_login.php" method="post">
+                        <div class="login-input-box">
+                            <label for="email">Email <i>*</i></label>
+                            <input type="text" name="email" id="email" placeholder="Type here" required>
+                        </div>
+                        <div class="login-input-box">
+                            <label for="password">Password <i>*</i></label>
+                            <input type="password" name="password" id="password" placeholder="Type here" required>
+                        </div>
+                        <div class="login-select-box">
+                            <label for="entity">Login as:</label>
+                            <select name="entity" id="entity">
+                                <option value="client">Client</option>
+                                <option value="organization">Organization</option>
+                            </select>
+                        </div>
+                        <div class="login-btn">
+                            <button type="submit" class="btn">Login</button>
+                        </div>
+                    </form>
+                    <div class="login-forgot">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
